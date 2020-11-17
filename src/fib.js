@@ -48,7 +48,7 @@ function fib_memo(n) {
  * @param {number} n
  */
 function fib_dp(n) {
-  const dp = [...Array(n)];
+  const dp = Array(n);
   dp[0] = 0;
   dp[1] = 1;
 
