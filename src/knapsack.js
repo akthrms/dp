@@ -1,1 +1,0 @@
-const Benchmark = require("benchmark");

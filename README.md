@@ -13,14 +13,10 @@ TODO
 ### フィボナッチ数列
 
 ```
-フィボナッチ数列 * 10【DPなし】 x 999,663 ops/sec ±1.70% (94 runs sampled)
-フィボナッチ数列 * 10【メモ化】 x 1,616,030 ops/sec ±0.39% (94 runs sampled)
-フィボナッチ数列 * 10【DPあり】 x 7,623,889 ops/sec ±1.08% (88 runs sampled)
-フィボナッチ数列 * 30【DPなし】 x 69.29 ops/sec ±0.24% (70 runs sampled)
-フィボナッチ数列 * 30【メモ化】 x 585,690 ops/sec ±0.41% (94 runs sampled)
-フィボナッチ数列 * 30【DPあり】 x 3,418,598 ops/sec ±0.55% (93 runs sampled)
+フィボナッチ数列 * 10【DPなし】 x 1,007,187 ops/sec ±0.43% (93 runs sampled)
+フィボナッチ数列 * 10【メモ化】 x 2,598,900 ops/sec ±0.55% (92 runs sampled)
+フィボナッチ数列 * 10【DPあり】 x 11,127,050 ops/sec ±1.22% (85 runs sampled)
+フィボナッチ数列 * 30【DPなし】 x 68.00 ops/sec ±0.28% (69 runs sampled)
+フィボナッチ数列 * 30【メモ化】 x 987,381 ops/sec ±0.35% (92 runs sampled)
+フィボナッチ数列 * 30【DPあり】 x 4,917,225 ops/sec ±0.45% (89 runs sampled)
 ```
-
-### ナップサック問題
-
-TODO

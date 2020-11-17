@@ -19,10 +19,10 @@ function fib(n) {
  * @param {number} n
  */
 function fib_memo(n) {
-  const memo = {};
+  const memo = Array(n);
 
-  function recur(m) {
-    if (m in memo) {
+  function go(m) {
+    if (memo[m]) {
       return memo[m];
     } else {
       let result;
@@ -32,7 +32,7 @@ function fib_memo(n) {
       } else if (m == 1) {
         result = 1;
       } else {
-        result = recur(m - 2) + recur(m - 1);
+        result = go(m - 2) + go(m - 1);
       }
 
       memo[m] = result;
@@ -40,7 +40,7 @@ function fib_memo(n) {
     }
   }
 
-  return recur(n);
+  return go(n);
 }
 
 /**
