@@ -12,7 +12,7 @@ function a__frog_1(xs) {
     if (n == 0) {
       return 0;
     } else if (n == 1) {
-      return go(n - 1) + Math.abs(xs[n] - xs[n - 1]);
+      return Math.abs(xs[n] - xs[n - 1]);
     } else {
       return Math.min(
         go(n - 1) + Math.abs(xs[n] - xs[n - 1]),
@@ -41,7 +41,7 @@ function a__frog_1_memo(xs) {
       if (n == 0) {
         result = 0;
       } else if (n == 1) {
-        result = go(n - 1) + Math.abs(xs[n] - xs[n - 1]);
+        result = Math.abs(xs[n] - xs[n - 1]);
       } else {
         result = Math.min(
           go(n - 1) + Math.abs(xs[n] - xs[n - 1]),
